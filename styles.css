@@ -45,33 +45,41 @@
 .main__contain {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: inherit;
+  margin-bottom: 150px;
 }
 .main__description {
   width: 800px;
-  height: 400px;
+  height: 300px;
 }
 .main__form {
   width: 500px;
-  height: 300px;
+  height: 350px;
 }
 .description__h3 {
   color: white;
   font-size: 60px;
   font-weight: bolder;
+  margin-bottom: 30px;
 }
 .description__p {
   color: white;
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .description__a {
+  display: block;
+  width: 200px;
   padding: 10px 50px 10px 50px;
   background-color: #8a0ce8;
   font-size: 18px;
   color: white;
   text-decoration: none;
   border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .main__form {
   background-color: white;
@@ -79,12 +87,12 @@
   padding: 30px 35px 50px 35px;
 }
 .edad {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 18px;
 }
 .transtorno {
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 input {
   border-radius: 20px;
