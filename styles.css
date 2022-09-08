@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+}
+.main__row--nav {
+  width: 1920px;
+  font-size: 16px;
+}
+.main_nav {
+  width: 19200px;
+  padding: 20px 150px 20px 150px;
+}
+.nav--container_list {
+  justify-content: flex-end;
+}
+.main {
+  padding: 0px 150px 0px 150px;
+  margin: 0;
+  background-image: url(Fondo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 889px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .nav-link {
+  color: black;
+} */
+/* .nav-link:focus {
+  color: black;
+} */
+.container_list--ul {
+  width: 500px;
+  justify-content: space-between;
+}
+.active {
+  border-radius: 20px;
+  text-align: center;
+  width: 80px;
+  background-color: #ffe60d;
+}
+.main__contain {
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+}
+.main__description {
+  width: 800px;
+  height: 400px;
+}
+.main__form {
+  width: 500px;
+  height: 300px;
+}
+.description__h3 {
+  color: white;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.description__p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.description__a {
+  padding: 10px 50px 10px 50px;
+  background-color: #8a0ce8;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.main__form {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px 35px 50px 35px;
+}
+.edad {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.transtorno {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+input {
+  border-radius: 20px;
+  border-width: 1px;
+  width: 425px;
+  height: 38px;
+}
+.boton {
+  display: flex;
+  height: 43px;
+  justify-content: center;
+  align-items: center;
+}
